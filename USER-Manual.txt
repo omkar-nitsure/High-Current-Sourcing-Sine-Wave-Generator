@@ -1,0 +1,25 @@
+                      USER MANUAL         
+--------------------------------------------------------------------------
+
+1. There are three inputs to the prototype. 
+	i. Vdd :- takes value of 15V 
+	ii. Vdrive (or Vin) :- 0-30V
+	iii. USB :- gives 5V supply and can also be used for dumping a different code on the Bluepill.
+
+2. There is a rotary knob for potentiometer. This is used to vary the frequency of the final output sinusoidal waveform. 
+
+3. Vpp for output sine wave can be varied by changing Vdrive. 
+
+4. LCD display is used for displaying the output sine wave frequency. It varries by a few Hz from the actual frequency. 
+
+5. Inductor load is connected on external breadboard. Range:- 1 to 10 mH. 
+
+6. Series resistor load with the inductor is also connected on external breadboard. Range:- 0 to 10 ohms. 
+
+7. Frequency display range:- upto 3kHz. 
+
+8. Current across resistive load - for R = 1.2 Ohm and L = 1mH we get current upto 3.16 A
+
+9. Output is taken from female header output pin which is not adjacent to the electrolytic capacitor, i.e leave the pair of pins adjacent to the electrolytic capacitor and take output from the next pair of pins. 
+
+System should be able to drive currents lower than this value
