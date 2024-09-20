@@ -44,8 +44,14 @@ The duty ratio of the PWM signals vary sinusoidally which enables the output to 
 
 Duty ratios of the 4 PWM signals are as follows -
 
-$$d_{1}={\frac{1}{2}}+m s i n(\omega t)$$
-$$d_{2}={\frac{1}{2}}-m s i n(\omega t)$$
+$$
+d_{1} = \frac{1}{2} + m \sin(\omega t)
+$$
+
+$$
+d_{2} = \frac{1}{2} - m \sin(\omega t)
+$$
+
 
 Then d3 and d4 are just complements of d1, d2 respectively seperated by dead time.
 
